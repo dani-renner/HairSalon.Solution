@@ -25,9 +25,10 @@ _This application uses a database hosted locally to store a list of stylists and
 * Add a file called appsettings.json. In that file, you will need to add the following code:
 {
   "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=[NAME_OF_DATABASE];uid=root;(pwd=[password if you have one]);"
+      "DefaultConnection": "Server=localhost;Port=3306;database=[dani_renner];uid=root;(pwd=[password if you have one]);"
   }
 }
+* Enter "dotnet restore" (without the quotes) in the terminal & hit Enter
 * Enter "dotnet run" (without the quotes) in the terminal to start
 * Ctrl + click the link that populates in the terminal to view the application in the webpage. It is probably http://localhost:5000/
 * Use Ctrl + C in the terminal to quit the host and close out of the window in the browser.
