@@ -3,3 +3,6 @@ body{
   background-color: navy;
   color: rgb(200, 139, 149);
 }
+h1{
+  font-style: italic;
+}
