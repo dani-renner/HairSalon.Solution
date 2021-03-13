@@ -25,7 +25,7 @@ _This application uses a database hosted locally to store a list of stylists and
 * Add a file called appsettings.json. In that file, you will need to add the following code:
 {
   "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=[dani_renner];uid=root;(pwd=[password if you have one]);"
+      "DefaultConnection": "Server=localhost;Port=3306;database=[dani_renner];uid=root;pwd=password [if you have one];"
   }
 }
 * Enter "dotnet restore" (without the quotes) in the terminal & hit Enter
